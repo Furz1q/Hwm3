@@ -69,9 +69,9 @@ public class Main {
         }
         System.out.println("Задание 7");
 
-        int one = -125;
-        int two = -104;
-        int three = -274;
+        int one = 25;
+        int two = 104;
+        int three = -74;
         if ( one > two && one > three){
             System.out.println(one);
         }else if ( two > three){
