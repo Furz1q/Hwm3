@@ -30,17 +30,14 @@ public class Main {
         }
         System.out.println("Задание 4");
 
-        int agePeople = 23;
+        int agePeople = 77;
         if (agePeople >= 2 && agePeople <= 6){
             System.out.println("Если возраст человека равен " + agePeople + " то ему нужно ходить в детский сад");
-        }
-        if (agePeople >= 7 && agePeople <= 17){
+        }else if (agePeople >= 7 && agePeople <= 17){
             System.out.println("Если возраст человека равен " + agePeople + " то ему нужно ходить в в школу");
-        }
-        if (agePeople >= 18 && agePeople <= 24){
+        }else if (agePeople >= 18 && agePeople <= 24){
             System.out.println("Если возраст человека равен " + agePeople + " то его место в университете");
-        }
-        if (agePeople > 24){
+        }else {
             System.out.println("Если возраст человека равен " + agePeople + " то ему пора ходить на работу");
         }
         System.out.println("Задание 5");
@@ -48,12 +45,10 @@ public class Main {
         int ageChild = 14;
         if (ageChild < 5){
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему нельзя кататься на аттракционе");
-        }
-        if (ageChild >= 5 && ageChild < 14){
+        }else if (ageChild >= 5 && ageChild < 14){
             System.out.println("Если возраст ребенка равен " +
                     ageChild + " то ему можно кататься на аттракционе в сопровождении взрослого");
-        }
-        if (ageChild >= 14 ){
+        }else {
             System.out.println("Если возраст ребенка равен " +
                     ageChild + " то ему можно кататься на аттракционе без сопровождения взрослого");
         }
@@ -64,11 +59,9 @@ public class Main {
         int people = 80;
         if (people < sitPlaces){
             System.out.println("Есть сидячие места");
-        }
-        if (people >= sitPlaces && people < places){
+        }else if (people >= sitPlaces && people < places){
             System.out.println("Есть стоячие места");
-        }
-        if (people >= places){
+        }else {
             System.out.println("Вагон уже полностью забит");
         }
         System.out.println("Задание 7");
